@@ -16,4 +16,6 @@ walletsList = pd.read_csv("wallets.csv")
 walletsList = walletsList.drop_duplicates()
 
 for i, row in walletsList[rowNum:].iterrows():
+    wallet = row["Wallet"]
+    url = f"https://api.etherscan.io/api?module=account&action=tokentx&address={wallet}&startblock=0&endblock=99999999&sort=desc&apikey=7YRRHUFSDSM5BXCIM8FY3NPJ192WYKRC1G"
     
