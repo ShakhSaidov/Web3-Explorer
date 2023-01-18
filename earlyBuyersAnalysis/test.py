@@ -1,6 +1,7 @@
 #result: address, holdings, previousTradeTimestamp, boughtTotal, holdingCurrently
 
 import pandas as pd
+import alchemyHelper
 
 #GLOBAL VARIABLES
 uniswapV2Router = "0x7a250d5630b4cf539739df2c5dacb4c659f2488d"
@@ -12,10 +13,10 @@ with open("mainCOUNT.txt", "r") as f:
     rowNum = int(f.read())
 count = rowNum + 1
 
-walletsList = pd.read_csv("wallets.csv")
+walletsList = pd.read_csv("wallets_test.csv")
 walletsList = walletsList.drop_duplicates()
 
 for i, row in walletsList[rowNum:].iterrows():
-    wallet = row["Wallet"]
-    url = f"https://api.etherscan.io/api?module=account&action=tokentx&address={wallet}&startblock=0&endblock=99999999&sort=desc&apikey=7YRRHUFSDSM5BXCIM8FY3NPJ192WYKRC1G"
-    
+    wallet = row["Address"]
+    buysList = alchemyHelper.getBuys(wallet)
+    print(buysList)
