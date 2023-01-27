@@ -1,252 +1,49 @@
-[
-  {
-    "address": "0xa3bbea0a9d45f6921eab50b7056a7970cb9fc02f",
-    "balance": 1.1370604632088921e24,
-    "share": 11.37
-  },
-  {
-    "address": "0x612c48611e471c91cc7293e51493a7633daf410f",
-    "balance": 1.9994386180075838e23,
-    "share": 2
-  },
-  {
-    "address": "0x145e881bb4f39422d38fb2aa2e85b7b3129fff4d",
-    "balance": 1.995579790142929e23,
-    "share": 2
-  },
-  {
-    "address": "0x27b54282bc592bf533e48f700829abb5d0a45b78",
-    "balance": 1.9941450236183805e23,
-    "share": 1.99
-  },
-  {
-    "address": "0x6f72a0e6c372fd5d7351bbc90be995f644733fab",
-    "balance": 1.992782234e23,
-    "share": 1.99
-  },
-  {
-    "address": "0x9f581ba9ad6d55a20e25df9a70068bb073fdd309",
-    "balance": 1.99186e23,
-    "share": 1.99
-  },
-  {
-    "address": "0x83b045a90c8f67b7734d3b0417ed20ed5933e67d",
-    "balance": 1.9907481694559795e23,
-    "share": 1.99
-  },
-  {
-    "address": "0xadde00b8a6957f79a1ad63c9364bdd6f7b8e4ef4",
-    "balance": 1.9701500891651934e23,
-    "share": 1.97
-  },
-  {
-    "address": "0x816dc6c5b0c994b0f6f8c4e2939c5fd493fa8219",
-    "balance": 1.944086917532747e23,
-    "share": 1.94
-  },
-  {
-    "address": "0x77e7b2db73b7d57101d997c629fd8bb1781a3c8a",
-    "balance": 1.9422067279975586e23,
-    "share": 1.94
-  },
-  {
-    "address": "0x6d0f32a80f26f72d57591e8af889a261dabe5cf0",
-    "balance": 1.88e23,
-    "share": 1.88
-  },
-  {
-    "address": "0x84169b4529becc9cd622a31d4a586b6d24823b62",
-    "balance": 1.8799906e23,
-    "share": 1.88
-  },
-  {
-    "address": "0x1903c15f4bcf41300716648d84b62b2d8405e699",
-    "balance": 1.8799812095416947e23,
-    "share": 1.88
-  },
-  {
-    "address": "0x93f2823e231149c4f47333595432579991d4ed0d",
-    "balance": 1.8009835345424117e23,
-    "share": 1.8
-  },
-  {
-    "address": "0xb919decbaae13b836d15fbbf9c6af580c23d58f9",
-    "balance": 1.692e23,
-    "share": 1.69
-  },
-  {
-    "address": "0x510f30961c61225dcfeb3b6bdbadb6a8a995b99b",
-    "balance": 1.5348773787393367e23,
-    "share": 1.53
-  },
-  {
-    "address": "0x9e139d1193a0f33d94653e985490cd844ed58020",
-    "balance": 1.4754327867266701e23,
-    "share": 1.48
-  },
-  {
-    "address": "0x2dbf02323570b093f0bc3db3f8a8c725299d48bc",
-    "balance": 1.363e23,
-    "share": 1.36
-  },
-  {
-    "address": "0xbe16b8cf6cf8fb569b48957facc324fc509eb779",
-    "balance": 1.36111319178364e23,
-    "share": 1.36
-  },
-  {
-    "address": "0xc19e1d4e721c52dc967344b0efc91224b765b4e5",
-    "balance": 1.2890426716912603e23,
-    "share": 1.29
-  },
-  {
-    "address": "0x98863fdf2363189e51512d132f08557411821952",
-    "balance": 1.2885185774840973e23,
-    "share": 1.29
-  },
-  {
-    "address": "0x9709510931261d37cfcf3f8577d3375fc9f50ef7",
-    "balance": 1.0001331972090122e23,
-    "share": 1
-  },
-  {
-    "address": "0x10a201bb44255116304fbe22a19f1055156c8486",
-    "balance": 1.0000000000090205e23,
-    "share": 1
-  },
-  {
-    "address": "0xa559df87f0c7f2f344e63fc8e50f8996f9c4542c",
-    "balance": 9.815492828831998e22,
-    "share": 0.98
-  },
-  {
-    "address": "0xbef9fc7326d7437cc8d8b412ce5a98cc4017e7d6",
-    "balance": 9.80181883192909e22,
-    "share": 0.98
-  },
-  {
-    "address": "0xd508bb3a7da724db89bc9ecc8ba404f045c04a29",
-    "balance": 9.609128764888181e22,
-    "share": 0.96
-  },
-  {
-    "address": "0x2d32920107dc8f64a86d81913120ef39ab9ee91a",
-    "balance": 9.488723554214038e22,
-    "share": 0.95
-  },
-  {
-    "address": "0xdd3451d9a9f569f55ede3e215cbd1fd600d26b89",
-    "balance": 9.4e22,
-    "share": 0.94
-  },
-  {
-    "address": "0xc22a0e46f26bbe8205f8035f261da85619ac3f6e",
-    "balance": 9.399906e22,
-    "share": 0.94
-  },
-  {
-    "address": "0xf3bfa6963ce2b6aae0d4a9ae231e70775db65ff2",
-    "balance": 9.186152469747963e22,
-    "share": 0.92
-  },
-  {
-    "address": "0xa020be378f8b2ed30ce5d2412a1694230ea375f9",
-    "balance": 9.170535598383758e22,
-    "share": 0.92
-  },
-  {
-    "address": "0x6f03cf5dc9aac521a69d9ab077721af1a74987c6",
-    "balance": 9.018575895150391e22,
-    "share": 0.9
-  },
-  {
-    "address": "0x8beababa0bb6710c0490436050b8c66b116e4a0a",
-    "balance": 9.000901788766e22,
-    "share": 0.9
-  },
-  {
-    "address": "0xa043720aa3e49f6898e1223d760b12ecad5242d9",
-    "balance": 8.946152845094412e22,
-    "share": 0.89
-  },
-  {
-    "address": "0x97fa3a7c5caedb67ad4bf5f233c34b28f9ac590d",
-    "balance": 8.814146954838207e22,
-    "share": 0.88
-  },
-  {
-    "address": "0x30391a42bc626437dcef38beca2d1e45ba8671dc",
-    "balance": 8.033079757254156e22,
-    "share": 0.8
-  },
-  {
-    "address": "0xa287e97a13502caa16b1accc20ea32f5f20979cd",
-    "balance": 8e22,
-    "share": 0.8
-  },
-  {
-    "address": "0xc4eb3c164d1eea7058c28f99e67612383e39fbca",
-    "balance": 7.925202807341583e22,
-    "share": 0.79
-  },
-  {
-    "address": "0xad1b92fe255cad37b0c721bcbd66e269bbb8f055",
-    "balance": 7.779028750988643e22,
-    "share": 0.78
-  },
-  {
-    "address": "0x5a9018bbc39a35c6630b8863d12d445680ef95e4",
-    "balance": 7.557639008688534e22,
-    "share": 0.76
-  },
-  {
-    "address": "0xa0ba58a8f01f9c792020a5efb8f3246dd2ad48f8",
-    "balance": 7.510694e22,
-    "share": 0.75
-  },
-  {
-    "address": "0xd42652b8a354c1513441268628ca1e85078bf34a",
-    "balance": 7.5e22,
-    "share": 0.75
-  },
-  {
-    "address": "0x2ed7a7dab69c288d83908bebdb7e42927a5affdb",
-    "balance": 7.258867232082289e22,
-    "share": 0.73
-  },
-  {
-    "address": "0x9f4a83475ef57f70c1a7754c3b381479626900ea",
-    "balance": 7.202128942173783e22,
-    "share": 0.72
-  },
-  {
-    "address": "0x000000000000000000000000000000000000dead",
-    "balance": 7.056202002217112e22,
-    "share": 0.71
-  },
-  {
-    "address": "0xfe3f7672df7eaee21319078e51d2cbac0383aab3",
-    "balance": 7.04488861635872e22,
-    "share": 0.7
-  },
-  {
-    "address": "0x1fce7b2cdd7296395674da2896ade417163590d4",
-    "balance": 7e22,
-    "share": 0.7
-  },
-  {
-    "address": "0xd74a0d55eab965500f83138e09edf7cb2aa6f8ab",
-    "balance": 6.881384714890918e22,
-    "share": 0.69
-  },
-  {
-    "address": "0xe3f7b0dff7b323956a19fff00471c2bca8174eaa",
-    "balance": 6.420294e22,
-    "share": 0.64
-  },
-  {
-    "address": "0x47ed1593b499afc6425d848671b2b614e07ed895",
-    "balance": 6.379800497034217e22,
-    "share": 0.64
-  }
-]
+['12.20',
+ '2,692.25',
+ '16.18',
+ '9,770.42',
+ '.00',
+ '.78',
+ ',323.25',
+ '.41',
+ '.99',
+ '66,558.54',
+ '.00',
+ ',098.63',
+ '19.00',
+ ',579.07',
+ '.00',
+ '4.54',
+ '5.03',
+ ',220.32',
+ '50.15',
+ '.59',
+ '26,232.26',
+ '.96',
+ '.00',
+ '.03',
+ '.00',
+ ',779.26',
+ '11,344.80',
+ '7.65',
+ '2.58',
+ '8.30',
+ '88.86',
+ '.00',
+ '.97',
+ '6,599.28',
+ '.93',
+ '.55',
+ '.00',
+ '1.06',
+ '09.78',
+ '.74',
+ '.00',
+ '63.33',
+ '.00',
+ '.00',
+ '.00',
+ '.00',
+ '.00',
+ '.00',
+ '.00']

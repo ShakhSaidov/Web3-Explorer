@@ -47,12 +47,21 @@ def getData(txn):
 
     json_data = sendRequest(query, variables)
 
+    #print("FIRST: ", json_data)
+
     json_data = json_data["data"]["transaction"]
     # null response, probably a transfer between accounts
     if (json_data is None):
         return -1
     
+    #print("SECOND: ", json_data)
+
     json_data = json_data["swaps"]
+    if (json_data is None or json_data == []):
+        return -1
+
+    #print("THIRD: ", json_data)
+
 
     #print("THIS IS JSON_DATA CURRENTLY", json_data)
 

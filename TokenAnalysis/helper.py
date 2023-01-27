@@ -37,22 +37,29 @@ def getBalance(address):
 
 
 def getTokenBalance(address):
-    from selenium import webdriver
-    from selenium.webdriver.common.by import By
-    from selenium.webdriver.chrome.options import Options
-    
-    chrome_options = Options()
-    chrome_options.add_argument('headless')
-    user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.50 Safari/537.36'
-    chrome_options.add_argument(f'user-agent={user_agent}')
+    try:
+        from selenium import webdriver
+        from selenium.webdriver.common.by import By
+        from selenium.webdriver.chrome.options import Options
+        from selenium.common.exceptions import NoSuchElementException
+        import re
+        
+        chrome_options = Options()
+        chrome_options.add_argument('headless')
+        user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.50 Safari/537.36'
+        chrome_options.add_argument(f'user-agent={user_agent}')
 
-    driver = webdriver.Chrome(chrome_options=chrome_options)
+        driver = webdriver.Chrome(chrome_options=chrome_options)
 
-    driver.get(f"https://etherscan.io/address/{address}")
-    element = driver.find_element(By.ID, "availableBalanceDropdown")
-    text = element.text
-    driver.close()
+        driver.get(f"https://etherscan.io/address/{address}")
+        element = driver.find_element(By.ID, "availableBalanceDropdown")
+        text = element.text
+        driver.close()
 
-    tokenBalance = text[2:].split()
-    tokenBalance = tokenBalance[0]
-    return tokenBalance
+        tokenBalance = text.split()
+        tokenBalance = tokenBalance[0]
+        tokenBalance = re.sub('[^0-9.]+', '', tokenBalance)
+        return tokenBalance
+
+    except NoSuchElementException:
+        return 0
